@@ -10,7 +10,7 @@ class RoleSeeder extends Seeder
 {
     /**
      * Run the database seeds.
-     */
+     */ 
     public function run(): void
     {
         DB::table('role_models')->insert([
